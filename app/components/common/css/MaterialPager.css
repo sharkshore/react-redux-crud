@@ -1,0 +1,77 @@
+.root {
+    position: relative;
+}
+
+.beginspan {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    right:40rem;
+    font-size:18px;
+}
+.leftspan{
+    margin-right:1rem
+}
+
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination li a.active {
+    background-color: rgb(0, 188, 212);
+    color: white;
+}
+
+.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/*  添加|圆角样式  */
+ul.pagination li a {
+    border-radius: 5px;
+}
+
+ul.pagination li a.active {
+    border-radius: 5px;
+}
+
+/*  添加|带边框分页  */
+ul.pagination li a {
+    border: 1px solid #ddd; /* Gray */
+}
+
+/*  添加|圆角边框  */
+.pagination li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*  添加|分页间隔  */
+ul.pagination li a {
+    margin: 0 4px; /* 0 is for top and bottom. Feel free to change it */
+}
+
+/*  添加|分页字体大小  */
+ul.pagination li a {
+    font-size: 16px;
+}
+

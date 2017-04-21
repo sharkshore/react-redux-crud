@@ -1,0 +1,14 @@
+.root{
+    padding: 1rem 2rem 1rem 0;
+    font-size: 18px;
+    color:rgb(0, 188, 212);
+}
+.content{
+    display: block;
+}
+
+.span{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(0, 188, 212);
+}

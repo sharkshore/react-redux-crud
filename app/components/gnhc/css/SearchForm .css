@@ -1,0 +1,16 @@
+.root{
+    position: relative;
+}
+.inlineField{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.form{
+   position: relative;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right:0
+}

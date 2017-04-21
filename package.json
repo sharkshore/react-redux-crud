@@ -1,0 +1,50 @@
+{
+  "name": "studyredux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server  --progress --inline --colors  --hot --config ./webpack.config.js  --content-base . --history-api-fallback",
+    "build": "webpack -p --progress --profile --colors --config ./webpack-prd.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.0.0",
+    "echarts": "^3.4.0",
+    "intl": "^1.2.5",
+    "material-ui": "^0.17.1",
+    "normalize.css": "^4.0.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.0",
+    "react-router-redux": "^4.0.7",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.0.4",
+    "redux-form": "^6.4.3",
+    "redux-form-material-ui": "^4.2.0",
+    "redux-saga": "^0.14.1",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.13.1",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "file-loader": "^0.9.0",
+    "http-server": "^0.8.5",
+    "redux-devtools-extension": "^1.0.0",
+    "redux-logger": "^2.7.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
